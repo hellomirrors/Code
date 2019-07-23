@@ -1,0 +1,103 @@
+/* Write your custom CSS here */
+
+/* Bilder Größe */
+
+.sg-type-imageselect .sg-caption {
+    display: block;
+    text-align: center;
+    padding: .5em;
+    line-height: 1.4;
+    font-size: 1.4em;
+  	font-weight: bold;
+    border-radius: 0 0 .3em .3em;
+}
+
+/* Überschrift Mitte */
+
+.sg-wrapper, .sg-question-title, .sg-question-title label {
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+
+/* Status Bar Bottom */
+
+.sg-survey .sg-body.sg-int-virtual-page .sg-footer, .sg-survey .sg-mobile-optimized .sg-footer {
+    background: none;
+    position: fixed;
+    bottom: 0;
+    top: initial;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0;
+    padding: 6px 0;
+    height: 60px;
+    -webkit-box-shadow: 0 0 7px 0 rgba(50,50,50,.75);
+    box-shadow: 0 0 7px 0 rgba(50, 50, 50, 0);
+    z-index: 10000;
+    overflow: none;
+    text-align: center;
+    display: block;
+}
+
+/* Button Forward */
+
+.sg-survey .sg-body.sg-int-virtual-page .sg-button-bar .sg-next-button, .sg-survey .sg-body.sg-int-virtual-page .sg-button-bar .sg-submit-button, .sg-survey .sg-mobile-optimized .sg-button-bar .sg-next-button, .sg-survey .sg-mobile-optimized .sg-button-bar .sg-submit-button {
+    font-family: SGIconFont;
+    float: right;
+    height: 55px;
+    font-size: 2em;
+    width: auto;
+    min-width: 155px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+
+/* Button Backward */
+
+.sg-survey .sg-body.sg-int-virtual-page .sg-button-bar .sg-back-button, .sg-survey .sg-mobile-optimized .sg-button-bar .sg-back-button {
+    font-family: SGIconFont;
+    float: left;
+    margin: 0px 0 0 0px;
+    height: 60px;
+    min-width: 155px;
+    width: auto;
+    text-align: center;
+    text-indent: -4px;
+  	font-size: 2em;
+}
+
+.sg-question-legend {
+    display: block;
+    margin: 0px;
+    padding: 0;
+    border: 0;
+    white-space: normal;
+    line-height: 1.4;
+    width: 100%;
+}
+
+.sg-survey .sg-mobile-optimized .sg-question.sg-type-cardsort .sg-mobile-ocs .sg-list label, .sg-survey .sg-mobile-optimized .sg-question.sg-type-checkbox .sg-question-options label, .sg-survey .sg-mobile-optimized .sg-question.sg-type-radio .sg-question-options label, .sg-survey .sg-mobile-optimized .sg-question.sg-type-rank-table .sg-question-options td label, .sg-survey .sg-mobile-optimized .sg-question.sg-type-rank-table .sg-question-options th label, .sg-survey .sg-mobile-optimized .sg-type-table-card-sort .sg-question-options label, .sg-survey .sg-mobile-optimized .sg-type-table-card-sort-closed .sg-question-options label, .sg-survey .sg-mobile-optimized .sg-type-table-checkbox .sg-question-options label, .sg-survey .sg-mobile-optimized .sg-type-table-matrix .sg-question-options .sg-mobilize-label label, .sg-survey .sg-mobile-optimized .sg-type-table-radio .sg-question-options label {
+    display: block;
+    border: 2px solid #BDC3C7;
+    border-radius: 4px;
+    padding: 7px 7px 7px 50px;
+    margin: 0;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-transition: background-color .5s cubic-bezier(.03,.96,.21,.75);
+    transition: background-color .5s cubic-bezier(.03,.96,.21,.75);
+    position: relative;
+}
+
+.sg-question-options label {
+    font-weight: 400;
+    font-size: 1.4em;
+    font-weight: bold;
+}
